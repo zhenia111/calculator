@@ -1,0 +1,160 @@
+body{
+    color:white;
+}
+
+.name{
+    font-size: 10px;
+    color:rgb(255, 127, 80);
+}
+
+
+
+.calc {
+    margin: 0 auto;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(139, 125, 98);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.calc-screen {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 62px;
+}
+
+.calc-screen p{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(62, 62, 62);
+}
+.btn {
+    position:relative;
+    width: 50px;
+    height: 50px;
+    background-color:   rgb(93, 92, 92);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(121, 118, 118);
+}
+.ac {
+    line-height: 50px;
+    text-align: center;
+}
+.ac:hover{
+    background-color: rgb(212, 212, 212); ;
+}
+.bg-grey {
+    background-color: rgb(193, 191, 191);
+}
+.plus-minus {
+    line-height: 50px;
+    text-align: center;
+}
+.plus-minus:hover{
+    background-color: rgb(212, 212, 212); ;
+}
+.percent {
+    line-height: 50px;
+    text-align: center;
+}
+.percent:hover{
+    background-color: rgb(212, 212, 212); ;
+}
+
+.division {
+    line-height: 50px;
+    text-align: center;
+}
+.division:hover{
+    background-color: rgb(255, 127, 80); 
+}
+.bg-orange {
+    background-color: orangered;
+}
+.seven {
+    line-height: 50px;
+    text-align: center;
+}
+
+.eigth {
+    line-height: 50px;
+    text-align: center;
+}
+.nine {
+    line-height: 50px;
+    text-align: center;
+}
+.multiply {
+    line-height: 50px;
+    text-align: center;
+}
+.multiply:hover{
+    background-color: rgb(255, 127, 80); 
+}
+.four {
+    line-height: 50px;
+    text-align: center;
+}
+.five {
+    line-height: 50px;
+    text-align: center;
+}
+.six {
+    line-height: 50px;
+    text-align: center;
+}
+.munus {
+    line-height: 50px;
+    text-align: center;
+}
+.munus:hover{
+    background-color: rgb(255, 127, 80); 
+}
+.one {
+    line-height: 50px;
+    text-align: center;
+}
+.two {
+    line-height: 50px;
+    text-align: center;
+}
+.thee {
+    line-height: 50px;
+    text-align: center;
+}
+.plus{
+    line-height: 50px;
+    text-align: center;
+}
+.plus:hover{
+    background-color: rgb(255, 127, 80); 
+}
+
+.zero {
+    line-height: 50px;
+    text-align: center;
+    width: 110px;
+    border-radius: 25%;
+}
+.dot {
+    line-height: 50px;
+    text-align: center;
+}
+.equal {
+    line-height: 50px;
+    text-align: center;
+}
+.equal:hover{
+    background-color: rgb(255, 127, 80); 
+}
